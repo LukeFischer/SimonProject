@@ -58,11 +58,11 @@
     <Compile Include="GameOverScreen.Designer.cs">
       <DependentUpon>GameOverScreen.cs</DependentUpon>
     </Compile>
-    <Compile Include="GameScreen.cs">
+    <Compile Include="GameScreen1.cs">
       <SubType>UserControl</SubType>
     </Compile>
-    <Compile Include="GameScreen.Designer.cs">
-      <DependentUpon>GameScreen.cs</DependentUpon>
+    <Compile Include="GameScreen1.Designer.cs">
+      <DependentUpon>GameScreen1.cs</DependentUpon>
     </Compile>
     <Compile Include="MainScreen.cs">
       <SubType>UserControl</SubType>
@@ -78,8 +78,8 @@
     <EmbeddedResource Include="GameOverScreen.resx">
       <DependentUpon>GameOverScreen.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="GameScreen.resx">
-      <DependentUpon>GameScreen.cs</DependentUpon>
+    <EmbeddedResource Include="GameScreen1.resx">
+      <DependentUpon>GameScreen1.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="MainScreen.resx">
       <DependentUpon>MainScreen.cs</DependentUpon>

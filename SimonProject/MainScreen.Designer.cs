@@ -77,7 +77,6 @@
             this.blueLabel.Name = "blueLabel";
             this.blueLabel.Size = new System.Drawing.Size(131, 94);
             this.blueLabel.TabIndex = 3;
-            
             // 
             // yellowLabel
             // 
@@ -108,6 +107,7 @@
             this.Controls.Add(this.startButton);
             this.Name = "MainScreen";
             this.Size = new System.Drawing.Size(300, 300);
+            
             this.ResumeLayout(false);
 
         }

@@ -21,7 +21,7 @@ namespace SimonProject
         {
             Form f = this.FindForm();
             f.Controls.Remove(this);
-            GameScreen gs = new GameScreen();
+            GameScreen1 gs = new GameScreen1();
             f.Controls.Add(gs);
         }
 
@@ -30,5 +30,8 @@ namespace SimonProject
             Application.Exit();
         }
 
+        
+
+        }
     }
-}
+
