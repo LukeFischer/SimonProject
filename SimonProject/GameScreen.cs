@@ -63,7 +63,7 @@ namespace SimonProject
                 }
                 if (Form1.pattern[i] == 3)
                 {
-                    yellowButton.BackColor = Color.Khaki;
+                    yellowButton.BackColor = Color.Khaki;  
                     Refresh();
                     Thread.Sleep(1600);
                     yellowButton.BackColor = Color.Yellow;
