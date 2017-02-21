@@ -46,9 +46,9 @@
             // 
             // scoreLabel
             // 
-            this.scoreLabel.Location = new System.Drawing.Point(63, 108);
+            this.scoreLabel.Location = new System.Drawing.Point(49, 95);
             this.scoreLabel.Name = "scoreLabel";
-            this.scoreLabel.Size = new System.Drawing.Size(158, 63);
+            this.scoreLabel.Size = new System.Drawing.Size(247, 74);
             this.scoreLabel.TabIndex = 1;
             // 
             // closeButton

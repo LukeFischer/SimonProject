@@ -23,6 +23,7 @@ namespace SimonProject
             f.Controls.Remove(this);
             GameScreen1 gs = new GameScreen1();
             f.Controls.Add(gs);
+            
         }
 
         private void exitButton_Click(object sender, EventArgs e)

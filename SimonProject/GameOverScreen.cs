@@ -16,11 +16,10 @@ namespace SimonProject
         {
             InitializeComponent();
 
-            // for (int i = 0; i < GameScreen.guess.Count(); i++)
-            {
-                //   scoreLabel.Text += "Your final score is" + GameScreen.guess[i];
-            }
-        }
+            scoreLabel.Font = new Font("Ariel", 14, FontStyle.Bold);
+            scoreLabel.Text += "Your final score is" + " "+ (Form1.pattern.Count() - 1);
+            
+         }
 
         private void closeButton_Click(object sender, EventArgs e)
         {
