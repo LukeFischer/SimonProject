@@ -101,8 +101,7 @@ namespace SimonProject
             guess = 0;
         }
 
-
-        private void click(String s)
+         private void click(String s)
         {
             //If blue button is pressed
             if (s == "Blue")
@@ -161,7 +160,6 @@ namespace SimonProject
                 Refresh();
                 Thread.Sleep(400);
             }
-
             //If guess is incorrect, end game and open GameOver screen
             if(Form1.pattern[count] != guess)
             {
@@ -179,9 +177,7 @@ namespace SimonProject
             //If guess is correct, resume player turn
             else
             {
-                
                 count++;
-
 
                 //Launch computer screen once the pattern is fully completed
                 if (count == Form1.pattern.Count())
@@ -190,10 +186,7 @@ namespace SimonProject
                     ComputerTurn();
                 }
             }
-
-            
-        
-         }
+        }
 
         private void blueButton_Click(object sender, EventArgs e)
         {
